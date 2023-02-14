@@ -1,0 +1,24 @@
+:root {
+  --fontFamily: "Poppins", sans-serif;
+  --nunitoFontFamily: "Rubik", sans-serif;
+  --redLightColor: #ff004d;
+  --blueDarkColor: #473bf0;
+  --lightGreenColor: #00b3cc;
+  --darkGreenColor: #2e85a1;
+  --crimsonColor: #ca526e;
+  --greenColor: #219956;
+  --greenColor2: #13965f;
+  --orangeColor: #ff5512;
+  --yellowColor: #ffaa29;
+  --crimsonLightColor: #ff6395;
+  --purpleColor: #c211a1;
+  --paragraphColor: #616b7e;
+  --whiteColor: #fff;
+  --blackColor: #1d2b53;
+  --transition: .5s;
+  --fontSize: 17px;
+  --fw500: 500;
+  --fw600: 600;
+  --fw700: 700;
+
+}

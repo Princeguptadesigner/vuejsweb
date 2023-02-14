@@ -1,0 +1,45 @@
+.btn-style-one
+  position: relative
+  border-radius: 5px
+  display: inline-block
+  padding: 12px 50px 12px 25px
+  transition: var(--transition)
+  border: 1px solid var(--blackColor)
+  font-size: 16px
+  font-weight: 500
+  svg
+    transform: translateY(-50%)
+    position: absolute
+    right: 25px
+    top: 50%
+  &.green-color
+    background-color: var(--greenColor)
+    border-color: var(--greenColor)
+    color: var(--whiteColor)
+    &:hover
+      background-color: var(--redLightColor)
+      border-color: var(--redLightColor)
+      color: var(--whiteColor)
+
+  &.red-light-color
+    background-color: var(--redLightColor)
+    border-color: var(--redLightColor)
+    color: var(--whiteColor)
+    &:hover
+      background-color: var(--orangeColor)
+      border-color: var(--orangeColor)
+      color: var(--whiteColor)
+
+  &.blue-dark-color, &.red-light-color:hover
+    background-color: var(--blueDarkColor)
+    border-color: var(--blueDarkColor)
+    color: var(--whiteColor)
+
+  &.orange-color, &.green-color2
+    background-color: var(--greenColor2)
+    border-color: var(--greenColor2)
+    color: var(--whiteColor)
+    &:hover
+      background-color: var(--orangeColor)
+      border-color: var(--orangeColor)
+      color: var(--whiteColor)

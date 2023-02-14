@@ -1,0 +1,67 @@
+$hoverColor: #ff004d
+
+.navbar-area
+  top: 0
+  left: 0
+  right: 0
+  z-index: 99
+  height: auto
+  position: absolute
+  background-color: transparent
+  padding-top: 10px
+  padding-bottom: 10px
+  &.p-relative
+    position: relative
+    padding-top: 0
+    padding-bottom: 0
+  .bg-light
+    background-color: transparent!important
+
+.vumy-nav
+  .container-fluid
+    padding-left: 50px
+    padding-right: 50px
+    @media only screen and (min-width: 1600px)
+      max-width: 1900px
+      padding-left: 100px
+      padding-right: 100px
+
+  .navbar
+    padding: 0
+    position: inherit
+    .navbar-brand
+      font-size: inherit
+      line-height: 1
+      padding: 0
+    .navbar-nav
+      margin-left: auto
+      .nav-item
+        position: relative
+        margin-left: 13px
+        margin-right: 13px
+        .nav-link
+          position: relative
+          color: var(--blackColor)
+          transition: var(--transition)
+          font-weight: var(--fw500)
+          font-size: 16px
+          padding-left: 0
+          padding-right: 0
+          padding-top: 30px
+          padding-bottom: 30px
+        &.active, &:hover
+          .nav-link
+            color: $hoverColor
+
+    ul
+      padding-left: 0
+      margin-bottom: 0
+      list-style-type: none
+
+    .others-option
+      margin-left: 30px
+
+.navbar-toggler
+  border: none
+  padding: 0
+  border-radius: 0

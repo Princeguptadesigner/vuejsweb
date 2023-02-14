@@ -1,0 +1,747 @@
+*, body
+  margin: 0
+  padding: 0
+
+body
+  color: var(--blackColor)
+  font-size: var(--fontSize)
+  font-family: var(--fontFamily)
+  font-weight: var(--fw400)
+
+a, a:hover
+  text-decoration: none
+
+img
+  max-width: 100%
+  height: auto
+
+.bg-f9f9f9
+  background-color: #f9f9f9
+
+.pb-100
+  padding-bottom: 100px
+
+.pb-75
+  padding-bottom: 75px
+
+.pt-100, .ptb-100
+  padding-top: 100px
+
+.ptb-100
+  padding-bottom: 100px
+
+.bg-fff4f8
+  background-color: #fff4f8
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+  color: var(--blackColor)
+  font-weight: 700
+
+.medical-banner-area
+  background: transparent url(../images/herobanner_bg.jpg) 100% 0 no-repeat
+  padding-top: 100px
+  padding-bottom: 100px
+
+.medical-banner-content
+  padding-right: 30px
+  h1
+    font-size: 60px
+    margin-bottom: 25px
+
+.section-title
+  text-align: center
+  max-width: 600px
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 55px
+  .sub-title.green-color
+    color: var(--greenColor)
+
+  h2
+    font-size: 42px
+    margin-bottom: 0
+
+  .sub-title
+    display: block
+    margin-bottom: 12px
+    color: var(--paragraphColor)
+    font-size: 17px
+    font-weight: 600
+
+.features-item, .features-item .icon
+  border-radius: 10px
+  transition: var(--transition)
+
+.features-item
+  padding: 35px
+  margin-bottom: 25px
+  background-color: #f9f9f9
+  &:hover
+    background-color: var(--greenColor2)
+    .icon
+      background-color: var(--whiteColor)
+      color: var(--greenColor2)
+      border-radius: 50%
+    h3, h3 a, p
+      color: var(--whiteColor)
+    p
+      opacity: .9
+
+  .icon
+    z-index: 1
+    width: 82px
+    height: 82px
+    font-size: 45px
+    position: relative
+    text-align: center
+    margin-bottom: 28px
+    color: var(--whiteColor)
+    background-color: var(--greenColor2)
+    display: flex
+    align-items: center
+    justify-content: center
+    svg
+      width: 1em
+      height: 1em
+
+  h3, p
+    transition: var(--transition)
+
+  h3
+    font-size: 24px
+    margin-bottom: 15px
+
+.nunito-font
+  font-family: var(--nunitoFontFamily)
+
+.col-lg-4:nth-child(3) .features-item:hover .icon, .col-lg-4:nth-child(6) .features-item:hover .icon, .col-lg-4:nth-child(9) .features-item:hover .icon
+  background-color: var(--whiteColor)
+  color: #0871f7
+
+.col-lg-4:nth-child(2) .features-item:hover .icon, .col-lg-4:nth-child(5) .features-item:hover .icon, .col-lg-4:nth-child(8) .features-item:hover .icon
+  background-color: var(--whiteColor)
+  color: #ff5512
+
+.col-lg-4:nth-child(2) .features-item .icon,
+.col-lg-4:nth-child(2) .features-item:hover,
+.col-lg-4:nth-child(5) .features-item .icon,
+.col-lg-4:nth-child(5) .features-item:hover,
+.col-lg-4:nth-child(8) .features-item .icon,
+.col-lg-4:nth-child(8) .features-item:hover
+  background-color: #ff5512
+
+.col-lg-4:nth-child(3) .features-item .icon, .col-lg-4:nth-child(3) .features-item:hover, .col-lg-4:nth-child(6) .features-item .icon, .col-lg-4:nth-child(6) .features-item:hover, .col-lg-4:nth-child(9) .features-item .icon, .col-lg-4:nth-child(9) .features-item:hover
+  background-color: #0871f7
+
+///////////////////faq section start ////////////////////////////////
+
+.with-top-border
+  border-top: 1px solid #e9e9e9
+
+.faq-accordion
+  .accordion-item
+    border: 0
+    border-radius: 10px
+    margin-bottom: 15px
+    background-color: var(--whiteColor)
+    box-shadow: 0 0 59px 31px rgba(0, 0, 0, 0.05)
+    .accordion-button
+      color: var(--blackColor)!important
+      background-color: transparent
+      box-shadow: unset!important
+      border: 0!important
+      border-radius: 0
+      font-size: 20px
+      font-weight: 500
+      padding-top: 18px
+      padding-left: 30px
+      padding-right: 30px
+      padding-bottom: 18px
+    .accordion-body
+      padding: 25px 30px
+      border-top: 1px solid #eaeaea
+
+/////////////////blog landing page ///////////////////////////
+.single-blog-post
+  margin-bottom: 25px
+  border-radius: 10px
+  background-color: var(--whiteColor)
+  box-shadow: 0 2px 27px 8px rgba(0, 0, 0, 0.08)
+  .image
+    overflow: hidden
+    border-radius: 10px 10px 0 0
+    height: 250px
+    a
+      width: 100%
+      height: 100%
+    img
+      border-radius: 10px 10px 0 0
+      transition: var(--transition)
+      width: 100%
+      height: 100%
+      object-fit: contain
+
+  .content
+    padding: 30px
+    .meta
+      padding-left: 0
+      margin-bottom: 12px
+      list-style-type: none
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      li
+        color: var(--paragraphColor)
+        text-transform: uppercase
+        display: flex
+        align-items: center
+        position: relative
+        margin-right: 15px
+        font-size: 14px
+        font-weight: 400
+        svg
+          color: var(--greenColor)
+          margin-right: 5px
+        a
+          color: var(--paragraphColor)
+          &:hover
+            color: var(--redLightColor)
+    h3
+      font-size: 22px
+      margin-bottom: 0
+      line-height: 1.4
+      font-weight: var(--fw700)
+      a
+        color: var(--blackColor)
+        font-weight: var(--fw700)
+        &:hover
+          color: var(--redLightColor)
+
+/////////////////Get started page ///////////////////////////
+.get-started-inner-area
+  background-color: #1d2b53
+  color: var(--whiteColor)
+  border-radius: 10px
+  padding: 100px
+  background-image: url(../images/bg-shape3.jpg)
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: cover
+  h2
+    font-size: 42px
+    margin-bottom: 0
+    color: var(--whiteColor)
+
+/////////////////footer started page ///////////////////////////
+.template-footer-five
+  .single-footer-widget
+    margin-bottom: 25px
+    &.pl-3
+      padding-left: 3rem
+
+    h3
+      font-size: 22px
+      margin-bottom: 25px
+    .footer-contact-info
+      padding-left: 0
+      margin-bottom: 0
+      list-style-type: none
+      li
+        padding-left: 48px
+        position: relative
+        margin-bottom: 20px
+        font-size: 18px
+        font-weight: 600
+        svg
+          color: var(--greenColor)
+          fill: var(--greenColor)
+          position: absolute
+          width: 35px
+          height: 35px
+          left: 0
+          top: 0
+          stroke
+          color: var(--greenColor)
+
+        span
+          display: block
+          margin-bottom: 8px
+          font-size: 16px
+          font-weight: 400
+        a
+          display: inline-block
+          color: var(--blackColor)
+    .quick-links
+      padding-left: 0
+      margin-bottom: 0
+      list-style-type: none
+      li
+        margin-bottom: 12px
+        a
+          display: inline-block
+          color: var(--paragraphColor)
+          font-size: 15px
+          font-weight: 500
+          &:hover
+            color: var(--greenColor)
+
+    .box
+      form
+        .input-newsletter
+          background-color: var(--whiteColor)
+          transition: var(--transition)
+          border: 1px solid #ebebeb
+          color: var(--blackColor)
+          border-radius: 6px
+          display: block
+          height: 53px
+          width: 100%
+          padding-left: 20px
+          padding-right: 20px
+          font-size: 15px
+          font-weight: 400
+          &:focus
+            border-color: var(--greenColor)
+
+        .btn-style-one
+          width: 100%
+          display: block
+          margin-top: 15px
+
+  .copyright-area
+    border-top: 1px solid #e9e9e9
+    margin-top: 75px
+    padding-top: 35px
+    padding-bottom: 35px
+    p
+      font-size: 15.5px
+      a
+        color: var(--greenColor)
+        &:hover
+          color: var(--redLightColor)
+
+    .logo
+      text-align: center
+
+    .social-links
+      text-align: end
+      padding-left: 0
+      margin-bottom: 0
+      list-style-type: none
+      li
+        display: inline-block
+        margin-left: 4px
+        margin-right: 4px
+        &:first-child
+          margin-left: 0
+
+        a
+          width: 40px
+          height: 40px
+          display: block
+          font-size: 16px
+          border-radius: 50%
+          text-align: center
+          position: relative
+          color: var(--greenColor)
+          background-color: var(--whiteColor)
+          box-shadow: 0 4px 40px rgba(0, 0, 0, 0.14)
+          svg
+            left: 0
+            right: 0
+            top: 50%
+            line-height: 1
+            margin: 0px auto
+            position: absolute
+            transform: translateY(-50%)
+          &:hover
+            background-color: var(--greenColor)
+            color: var(--whiteColor)
+
+////////////////////////////////About us page////////////////////////////////////////////////
+.page-title-area
+  background-color: #f8fbff
+  padding-top: 180px
+  padding-bottom: 100px
+.page-title-content
+  text-align: center
+  max-width: 600px
+  margin-left: auto
+  margin-right: auto
+  .sub-title
+    display: block
+    margin-bottom: 15px
+    color: var(--paragraphColor)
+    font-size: 17px
+    font-weight: 600
+    &.red-light-color
+      color: var(--redLightColor)
+
+.about-image
+  height: 100%
+  margin-right: 50px
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: cover
+  &.bg1
+    background-image: url(../images/about1.jpg)
+
+  img
+    display: none
+
+.about-content
+  .sub-title
+    display: block
+    margin-bottom: 12px
+    color: var(--paragraphColor)
+    font-size: 17px
+    font-weight: 600
+  .btn-style-one
+    margin-top: 30px
+
+  h2
+    font-size: 42px
+    margin-bottom: 15px
+  .about-list
+    padding-left: 0
+    list-style-type: none
+    margin-bottom: 0
+    margin-top: 35px
+    li
+      display: block
+      position: relative
+      border-radius: 10px
+      margin-bottom: 12px
+      transition: var(--transition)
+      font-size: 20px
+      font-weight: 700
+      padding-top: 18px
+      padding-left: 70px
+      padding-right: 30px
+      padding-bottom: 18px
+      &:first-child
+        background-color: var(--whiteColor)
+        box-shadow: 0 2px 29px 13px rgba(0, 0, 0, 0.05)
+        .link-btn
+          opacity: 1
+          right: 20px
+          visibility: visible
+      .link-btn
+        transform: translateY(-50%)
+        color: var(--blackColor)
+        visibility: hidden
+        position: absolute
+        margin-top: 4px
+        transition: .3s
+        right: 30px
+        opacity: 0
+        top: 50%
+
+      .icon
+        background-color: var(--redLightColor)
+        transition: var(--transition)
+        transform: translateY(-50%)
+        color: var(--whiteColor)
+        border-radius: 50%
+        position: absolute
+        text-align: center
+        font-size: 22px
+        height: 35px
+        width: 35px
+        left: 20px
+        top: 50%
+        i
+          left: 0
+          right: 0
+          top: 50%
+          margin-top: 4px
+          position: absolute
+          display: inline-block
+          transform: translateY(-50%)
+
+.single-funfacts-box, .single-funfacts-box .icon
+  margin-bottom: 25px
+  position: relative
+  text-align: center
+
+.single-funfacts-box
+  &:hover
+    .icon
+      border-radius: 30% 30% 70% 70%/30% 70% 47% 53%
+      background-color: var(--redLightColor)
+      color: var(--whiteColor)
+
+  &:before
+    top: 0
+    width: 1px
+    content: ""
+    height: 100%
+    right: -15px
+    position: absolute
+    background-color: #dedede
+  .icon
+    width: 130px
+    height: 130px
+    font-size: 60px
+    border-radius: 50%
+    color: var(--redLightColor)
+    transition: var(--transition)
+    background-color: var(--whiteColor)
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.04)
+    border-radius: 30% 70% 47% 53%/30% 30% 70% 70%
+    margin-left: auto
+    margin-right: auto
+  h3
+    line-height: 1
+    font-size: 65px
+    margin-bottom: 10px
+  p
+    line-height: normal
+    font-size: 18px
+    font-weight: 500
+
+.col-lg-3:last-child .single-funfacts-box:before
+  display: none
+
+////////////////////////////services pages///////////////////////////////////////////////////
+.single-help-desk-box, .single-help-desk-box .icon
+  margin-bottom: 25px
+
+.subscribe-image
+  text-align: center
+  padding-left: 150px
+
+.single-help-desk-box
+  h3
+    font-size: 22px
+    margin-bottom: 15px
+  .link-btn
+    position: relative
+    padding-right: 14px
+    display: inline-block
+    color: var(--redLightColor)
+    font-size: 15px
+    font-weight: 600
+    &:hover
+      color: var(--blackColor)
+      padding-right: 20px
+
+.subscribe-content
+  .sub-title
+    display: block
+    margin-bottom: 15px
+    color: var(--paragraphColor)
+    font-size: 17px
+    font-weight: 600
+  h2
+    font-size: 42px
+    margin-bottom: 20px
+  .newsletter-form
+    margin-top: 40px
+    position: relative
+    .input-newsletter
+      background-color: var(--whiteColor)
+      transition: var(--transition)
+      border: 1px solid #ebebeb
+      color: var(--blackColor)
+      border-radius: 6px
+      display: block
+      height: 60px
+      width: 100%
+      padding-left: 20px
+      padding-right: 20px
+      font-size: 15px
+      font-weight: 400
+    .btn-style-one
+      padding-top: 16px
+      padding-bottom: 16px
+      padding-right: 44px
+///////////////////////////////////////////////blog details page //////////////////////////////////////
+.blog-details-desc
+  .post-thumb
+    margin-bottom: 25px
+  .post-meta
+    margin-bottom: 12px
+    margin-top: 18px
+    ul
+      padding-left: 0
+      list-style-type: none
+      margin-bottom: 0
+      margin-top: 0
+      li
+        color: var(--paragraphColor)
+        text-transform: uppercase
+        display: inline-block
+        padding-left: 22px
+        position: relative
+        margin-right: 15px
+        margin-bottom: 0
+        font-size: 14px
+        font-weight: 400
+        i
+          color: var(--redLightColor)
+          position: absolute
+          font-size: 16px
+          top: 2px
+          left: 0
+        a
+          color: var(--paragraphColor)
+          &:hover
+            color: var(--redLightColor)
+
+  ol, ul
+    margin-top: 20px
+    margin-bottom: 20px
+
+  p
+    font-size: 16px
+.widget-area.left-sidebar
+  padding-left: 0
+  padding-right: 15px
+
+.widget-area
+  .widget
+    margin-bottom: 35px
+    .widget-title
+      margin-bottom: 25px
+      position: relative
+      font-size: 22px
+      z-index: 1
+      &:before
+        left: 0
+        right: 0
+        top: 50%
+        content: ""
+        height: 1px
+        z-index: -1
+        margin-top: 1px
+        position: absolute
+        transform: translateY(-50%)
+        background-color: #eee
+
+    &.widget_categories
+      ul
+        padding-left: 0
+        margin-bottom: 0
+        list-style-type: none
+        li
+          margin-bottom: 13px
+          font-size: 15.5px
+          a
+            display: flex
+            color: var(--paragraphColor)
+            justify-content: space-between
+            &:hover
+              color: var(--redLightColor)
+  .widget_follow_us
+    ul
+      padding-left: 0
+      margin-bottom: 0
+      list-style-type: none
+      li
+        margin-bottom: 13px
+        font-size: 15.5px
+        a
+          position: relative
+          display: inline-block
+          color: var(--paragraphColor)
+          &:before
+            left: 0
+            width: 0
+            bottom: 0
+            content: ""
+            height: 1px
+            position: absolute
+            transition: var(--transition)
+            background-color: var(--redLightColor)
+          &:hover
+            color: var(--redLightColor)
+            &:before
+              width: 100%
+
+///////////////////////////////////////// Contact us page ////////////////////////////////////
+.bg-f1f5fd:before
+  top: 0
+  left: 0
+  right: 0
+  z-index: -1
+  content: ""
+  height: 200px
+  position: absolute
+  background-color: #f8fbff
+.contact-info-inner
+  background: linear-gradient(26.1deg,#ed2775,#ff7448)
+  padding: 100px 100px 75px
+  text-align: center
+  position: relative
+  z-index: 1
+  .single-contact-info-box
+    padding: 30px
+    margin-bottom: 25px
+    background-color: var(--whiteColor)
+    .icon
+      width: 80px
+      height: 80px
+      font-size: 40px
+      position: relative
+      border-radius: 50%
+      color: var(--whiteColor)
+      background: linear-gradient(44.44deg,#ed2775 7.79%,#ff7448 94.18%)
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 20px
+      &.bg1
+        background: linear-gradient(45.24deg,#9f5ff1 5.99%,#ff54b0 91.87%)
+      &.bg2
+        background: linear-gradient(44.44deg,#3f75ff 7.79%,#4adeff 94.18%)
+
+    h3
+      line-height: 1.5
+      margin-bottom: 6px
+      font-size: 20px
+      font-weight: 400
+      a
+        color: var(--blackColor)
+        &:hover
+          color: var(--redLightColor)
+
+.contact-form
+  padding-right: 15px
+  .form-group
+    margin-bottom: 25px
+    label
+      display: block
+      margin-bottom: 10px
+      font-size: 15px
+      font-weight: 500
+    .form-control
+      transition: var(--transition)
+      border: 1px solid #f9f9f9
+      background-color: #f9f9f9
+      color: var(--blackColor)
+      border-radius: 5px
+      box-shadow: unset
+      font-size: 16px
+      height: 55px
+      width: 100%
+      padding-left: 15px
+      padding-right: 15px
+
+  .form-check
+    color: var(--paragraphColor)
+    font-size: 16px
+    margin-top: 5px
+    margin-bottom: 20px
+    .form-check-input[type=checkbox]
+      border-radius: 0
+    a
+      color: var(--redLightColor)
+      &:hover
+        text-decoration: underline
+
+  .btn-style-one
+    margin-top: 5px
+
+#maps, #maps iframe
+  height: 100%
+  width: 100%
