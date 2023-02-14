@@ -11,21 +11,24 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-contact-info-box">
               <div class="icon bg1"><i class="ph-phone-call"></i></div>
-              <h3><a href="tel:(+321) 895-980 008">(+321) 895-980 008</a></h3>
-              <h3><a href="tel:(+321) 895-980 008">(+321) 895-980 008</a></h3>
+              <h3><a href="tel:(+91) 9999999999">(+91) 9999999999</a></h3>
+              <h3><a href="tel:(+91) 9999999999">(+91) 9999999999</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-contact-info-box">
               <div class="icon"><i class="ph-envelope-simple-open"></i></div>
-              <h3><a href="mailto:hello@vumy.com">hello@vumy.com</a></h3>
-              <h3><a href="mailto:info@vumy.com">info@vumy.com</a></h3>
+              <h3>
+                <a href="mailto:princegupta.designer@gmail.com"
+                  >princegupta.designer@gmail.com</a
+                >
+              </h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-contact-info-box">
               <div class="icon bg2"><i class="ph-map-pin-line"></i></div>
-              <h3>2750 Quadra Street Victoria, Canada.</h3>
+              <h3>New Delhi, In</h3>
             </div>
           </div>
         </div>

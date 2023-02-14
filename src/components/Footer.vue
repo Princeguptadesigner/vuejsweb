@@ -9,16 +9,18 @@
               <li>
                 <v-icon name="md-phoneintalk-outlined" />
                 <span>Mon to Fri : 10:00AM - 06:00PM</span
-                ><a href="tel:1235421457852">+123 54214 578 52</a>
+                ><a href="tel:1235421457852">+91 9999999999</a>
               </li>
               <li>
                 <v-icon name="la-envelope-open" />
                 <span>Do You Have a Question?</span
-                ><a href="mailto:hello@vumy.com">hello@vumy.com</a>
+                ><a href="mailto:princegupta.designer@gmail.com"
+                  >princegupta.designer@gmail.com</a
+                >
               </li>
               <li>
                 <v-icon name="co-location-pin" />
-                <span>2750 Quadra Street Victoria, Canada</span
+                <span>New Delhi, IN</span
                 ><a href="#" target="_blank">Find Us on Map</a>
               </li>
             </ul>
@@ -86,16 +88,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 col-md-5">
-            <p>
-              @2023 Vumy. All Rights Reserved by
-              <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
-            </p>
+            <p>@2023 Prince kumar Gupta. All Rights Reserved by</p>
           </div>
-          <div class="col-lg-4 col-md-3">
-            <div class="logo">
-              <Logo />
-            </div>
-          </div>
+          <div class="col-lg-4 col-md-3"></div>
           <div class="col-lg-4 col-md-4">
             <ul class="social-links">
               <li>
@@ -127,11 +122,7 @@
 </template>
 
 <script>
-import Logo from "./header/Logo.vue";
 export default {
   name: "Footer",
-  components: {
-    Logo,
-  },
 };
 </script>
