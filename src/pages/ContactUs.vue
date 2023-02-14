@@ -28,7 +28,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-contact-info-box">
               <div class="icon bg2"><i class="ph-map-pin-line"></i></div>
-              <h3>New Delhi, In</h3>
+              <h3>New Delhi, India</h3>
             </div>
           </div>
         </div>
