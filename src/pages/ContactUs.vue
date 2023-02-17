@@ -12,7 +12,6 @@
             <div class="single-contact-info-box">
               <div class="icon bg1"><i class="ph-phone-call"></i></div>
               <h3><a href="tel:(+91) 9999999999">(+91) 9999999999</a></h3>
-              <h3><a href="tel:(+91) 9999999999">(+91) 9999999999</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
