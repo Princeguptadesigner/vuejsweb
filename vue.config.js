@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 module.exports = {
-  publicPath: "/vuejsweb/"
+  publicPath: process.env.NODE_ENV === "production" ? "/vuejsweb/" : "/",
 };
